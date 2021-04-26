@@ -95,9 +95,11 @@ figure img:hover {
     line-height: 1.6rem;
 }
 #designShop p span {
-    color: #848484;
+    color: #323A45;
 }
-
+#contact {
+    margin-left: 30%;
+}
 #contact a {
     text-decoration: none;
     color: black;
@@ -112,7 +114,7 @@ figure img:hover {
     display: block;
 }
 #newsletter p b {
-    font-weight: bold;
+    font-weight: 900;
 }
 #newsletter p {
     line-height: 1.6rem;
@@ -124,11 +126,16 @@ figure img:hover {
     font-size: 0.9rem;
     line-height: 2rem;
 }
+
+/* -------- Footer ---------------- */
 footer {
     margin-left: 10%;
     color: #848484;
     padding-bottom: 1%;
     padding-top: 2%;
+}
+footer p {
+    font-size: 1.3rem;
 }
 footer p span::before {
     content: " \2022";
